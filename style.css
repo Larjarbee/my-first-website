@@ -193,6 +193,13 @@ span.size-48 {
   
 }
 
+@media only screen and (max-width: 808px) {
+  .service-flex {
+    display: flex;
+    flex-direction: column;
+}
+}
+
 @media only screen and (max-width: 600px){
   .service-flex {
   display: flex;
@@ -237,5 +244,9 @@ h1 {
 
 h3 {
   font-size: 25px;
+}
+
+.nav-bar {
+  display: none;
 }
 }
